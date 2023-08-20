@@ -1,38 +1,88 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("../src/BgImage.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}
+.myGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  width: 60vw;
+  height: 60vh;
+  padding-block: 5%;
+}
+.gridRight {
+  background-color: #03045e;
+  box-shadow: 13px 13px 15px #caf0f855;
+  /* background-image: url("../src/gridBg.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover; */
+}
+.gridLeft {
+  border: 3px;
+  border-style: solid;
+  border-color: #03045e;
+  /* background-color: #e09f3e7c; */
+  padding: 12%;
+  box-shadow: 13px 13px 15px #caf0f858;
+}
+input {
+  width: 70%;
+  padding: 13px;
+  font-size: 1.3rem;
+  background-color: #caf0f8;
+  border-color: transparent;
+  font-weight: bold;
+}
+
+select {
+  padding: 13px;
+  font-size: 1.3rem;
+  background-color: #caf0f8;
+  width: fit-content;
+  border-color: transparent;
+}
+
+.select2 {
+  padding: 12px;
+  width: 100%;
+  border-radius: 0%;
+  background-color: #caf0f8;
+}
+option {
+  border-radius: 0%;
+  padding: 15px;
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 50px;
+  padding: 25px;
+  width: 80%;
+  margin-top: 15%;
+  background-color: #03045e;
   color: white;
+  box-shadow: 8px 8px 10px #61e3ef86;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3,
+h1 {
+  font-size: 1.6rem;
+  color: white;
 }
