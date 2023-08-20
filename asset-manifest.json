@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/aidTech_TemratureConverter/static/css/main.f1f594cb.css",
+    "main.js": "/aidTech_TemratureConverter/static/js/main.ef121b16.js",
+    "static/js/787.9279e2fa.chunk.js": "/aidTech_TemratureConverter/static/js/787.9279e2fa.chunk.js",
+    "static/media/BgImage.jpg": "/aidTech_TemratureConverter/static/media/BgImage.8944ae2a6207b65cd069.jpg",
+    "index.html": "/aidTech_TemratureConverter/index.html",
+    "main.f1f594cb.css.map": "/aidTech_TemratureConverter/static/css/main.f1f594cb.css.map",
+    "main.ef121b16.js.map": "/aidTech_TemratureConverter/static/js/main.ef121b16.js.map",
+    "787.9279e2fa.chunk.js.map": "/aidTech_TemratureConverter/static/js/787.9279e2fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1f594cb.css",
+    "static/js/main.ef121b16.js"
+  ]
+}
